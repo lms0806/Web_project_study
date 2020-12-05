@@ -1,0 +1,259 @@
+<html>
+<HEAD>
+<TITLE>민수의 홈페이지 LMS</TITLE>
+<META CHARSET="UTF-8">
+<link rel="stylesheet" href="style.css">
+</HEAD>
+
+<BODY>
+  <div class="thickbar" style="height:6px; background-color:#0066ff; z-index:10;">
+  </div>
+  <div class="thickbar" style="height:40px; background-color:#efefef; z-index:9;">
+  </div>
+  <div class="thickbar" style="height:160px; background-color:#f8f8f8; z-index:8;">
+  </div>
+  <div class="thickbar" style="height:563px; z-index:7;">
+  </div>
+  <div class="thickbar" style="height:1410px; z-index:6;">
+  </div>
+  <div class="thickbar" style="height:1495px; z-index:5; background-color:#f8f8f8">
+  </div>
+
+  <div style="width:1080px;margin-top:0;margin:auto;z-index:1;position:relative;z-index:15;">
+
+  <div style="margin-left:15px;margin-top:10px;vertical-align:middle;height:20px;padding:0;">
+    <a class="hrefNoUnderline" href="https://lms0806.github.io/webs">
+      <span class="top3words">고객센터</span>
+    </a>
+    <a class="hrefNoUnderline" href="unavailable.html">
+      <span class="top3words">이벤트</span>
+    </a>
+    <a class="hrefNoUnderline" href="unavailable.html">
+      <span class="top3words">제플린 플레이어 다운로드</span>
+    </a>
+  </div>
+
+  <div style="margin-top:15px">
+    <div class="divAlignLeft">
+      <a href="https://www.naver.com">
+        <img style="width:400;height:110" src="https://s.pstatic.net/static/www/mobile/edit/2020/1204/mobile_171419645798.png">
+      </a>
+    </div>
+
+    <div class="divAlignLeft" style="margin-top:33px;">
+      <input id = "search" type="text" class="searchTxt">
+      <a class="hrefNoUnderline">
+        <input type="button" class="searchBtn" onclick="searchbutton()">
+      </a>
+    </div>
+
+    <div style="float:right;margin-top:10px">
+      <a href="https://daum.net">
+        <img src="https://t1.daumcdn.net/daumtop_chanel/op/20200723055344399.png" width=300 height=80>
+      </a>
+    </div>
+  </div>
+
+<!-- border 없애기 -->
+  <div style="width:1080px;margin-top:100px;">
+    <table style="width:100%;border-spacing:15px">
+      <tr>
+        <td class="tdTitle" style="width:36%;">
+          <span style="margin:5;font-family:'맑은 고딕';font-size:20;letter-spacing: 0px;">HOT한 앨범</span><br>
+          <a class="hrefNoUnderline" href="frames/album-all.html" target="1">
+            <span class="top3words">전체</span>
+          </a>
+          <a class="hrefNoUnderline" href="frames/album-kpop.html" target="1">
+            <span class="top3words">가요</span>
+          </a>
+          <a class="hrefNoUnderline" href="frames/album-pop.html" target="1">
+            <span class="top3words">POP</span>
+          </a>
+          <a class="hrefNoUnderline" href="frames/album-ost.html" target="1">
+            <span class="top3words">OST</span>
+          </a>
+          <a class="hrefNoUnderline" href="frames/album-jpop.html" target="1">
+            <span class="top3words">J-POP</span>
+          </a>
+          <a class="hrefNoUnderline" href="frames/album-indi.html" target="1">
+            <span class="top3words">인디</span>
+          </a>
+        </td>
+        <td class="tdTitle">
+          <span style="margin:5;
+            font-family:'맑은 고딕';
+            font-size:20;
+            letter-spacing: 0px;">민수음악 차트</span><br>
+          <a class="hrefNoUnderline" href="https://www.melon.com/chart/" target="2">
+            <span class="top3words">실시간</span>
+          </a>
+          <a class="hrefNoUnderline" href="frames/chart-daily.html" target="2">
+            <span class="top3words">일간</span>
+          </a>
+          <a class="hrefNoUnderline" href="frames/chart-weekly.html" target="2">
+            <span class="top3words">주간</span>
+          </a>
+        </td>
+        <td style=" width:28%;vertical-align:bottom;">
+          <div style="margin-bottom:-8">
+            <span style="font-size:8pt;margin-left:12px;vertical-align:middle">보안 로그인</span>
+            <span style="margin-left:6px;">
+              <span class="secureLogin" style="margin-left:15px">1단계
+                <input type="radio" name="slogin" checked style="vertical-align:middle">
+              </span>
+              <span class="secureLogin">2단계
+                <input type="radio" name="slogin" style="vertical-align:middle">
+              </span>
+              <span class="secureLogin">3단계
+                <input type="radio" name="slogin" style="vertical-align:middle">
+              </span>
+            </span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="padding:0">
+          <iframe src="frames/album-all.html" style="width:366;height:296;border:0" name="1" scrolling="no"></iframe>
+        </td>
+        <td rowspan="2">
+          <iframe src="frames/chart-realtime.html" style="width:100%;height:296;border:0" name="2" scrolling="no"></iframe>
+        </td>
+        <td>
+          <table style="width:100%;height:70px;border-spacing:4px;">
+            <tr>
+              <td style="width:220px;">
+                <input type="text" style="background-color:#f0f0f0 border-radius:14px;width:100%;height:100%;border:0px;padding-left:12px;padding-right:12px" maxlength="20" placeholder = "id">
+              </td>
+
+              <td rowspan="2" style="vertical-align:middle;">
+                <input type="button" class="loginBtn">
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="password" style="background-color:#f0f0f0 border-radius:14px;;width:100%;height:100%;border:0px;padding-left:12px;padding-right:12px" maxlength="20" placeholder = "password">
+              </td>
+            </tr>
+          </table>
+
+          <input type="checkbox" checked style="vertical-align:middle;margin-left:7px;">
+          <span style="font-size:8pt;vertical-align:middle;margin-right:20px">아이디 저장</span>
+          <a class="hrefNoUnderline" href="unavailable.html"><span style="font-size:8pt;margin-right:20px" class="top3words">ID/PW 찾기</span></a>
+          <a class="hrefNoUnderline" href="unavailable.html"><span style="font-size:8pt;" class="top3words">회원가입</span></a>
+        </td>
+      </tr>
+      <tr style="height:190px">
+        <td>
+          <a href="https://www.melon.com/album/detail.htm?albumId=2195252">
+            <img src="https://musicmeta-phinf.pstatic.net/album/000/389/389510.jpg?type=r204Fll&v=20200218135113" width="100%" height="100%">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" style="margin-top:80px;">
+          <!-- 뮤비 메뉴 div-->
+          <div style="position:relative; float:left; margin-top:30px; width:100%; height:340px; background-color:#333333; padding:0px; text-align:center;">
+            <div style="position:relative; margin-top:10px; margin-left:20px;">
+              <div style="position:relative; float:left; margin:2px; text-align:center;">
+                <a href="https://www.youtube.com/embed/gdZLi9oWNZg" target="mvframe">
+                  <img src="https://i.ytimg.com/vi/gdZLi9oWNZg/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD_Azszdgp8EDlUD_2_ZV_AAVQ8tA" style="width:198px;height:126px;"><br>
+                  <span class="white" style="line-height:25px;">Dynamite - BTS(방탄소년단)</span>
+                </a>
+              </div>
+              <div style="float:left; margin:2px;text-align:center;">
+                <a href="https://www.youtube.com/embed/-CR_RQ09Si4" target="mvframe">
+                  <img src="https://i.ytimg.com/vi/7NV2rzS7VJQ/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCMDRLOsGY6bSlLhuV9Fk7k2lYLiA" style="width:198px;height:126px;"><br>
+                  <span class="white" style="line-height:25px;">여기 적어줘 - 청하(Feat. pH-1)</span>
+                </a>
+              </div>
+              <div style="float:left; margin:2px;text-align:center;">
+                <a href="https://www.youtube.com/embed/D1PvIWdJ8xo" target="mvframe">
+                  <img src="https://i.ytimg.com/vi/D1PvIWdJ8xo/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD0t2y6O9Gs9YSZOUj1uAX42PozIw" style="width:198px;height:126px;"><br>
+                  <span class="white" style="line-height:25px;">Blueming(블루밍) - 아이유(IU)</span>
+                </a>
+              </div>
+              <div style="float:left; margin:2px;text-align:center;">
+                <a href="https://www.youtube.com/embed/r2KDYIn-1cY" target="mvframe">
+                  <img src="https://i.ytimg.com/vi/r2KDYIn-1cY/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC2eUGvbf_cwPbV1u7b1q7n4r5Vdg" style="width:198px;height:126px;"><br>
+                  <span class="white" style="line-height:25px;">잘 살고 있지롱 - 윤딴딴</span>
+                </a>
+              </div>
+              <div style="float:left; margin:2px;text-align:center;">
+                <a href="https://www.youtube.com/embed/zbV08YMyktA" target="mvframe">
+                  <img src="https://i.ytimg.com/vi/Xk52SdtfAl0/hqdefault.jpg?sqp=-oaymwEZCOADEI4CSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCCvVdkYraupHDdMNpLvTqCoLYUzA" style="width:198px;height:126px;"><br>
+                  <span class="white" style="line-height:25px;">11° - 민아(걸스데이)</span>
+                </a>
+              </div>
+              <div style="float:left; margin:2px;text-align:center;">
+                <a href="https://www.youtube.com/embed/Z4NcMnaRK_s" target="mvframe">
+                  <img src="https://i.ytimg.com/vi/Z4NcMnaRK_s/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD-UcleaNsPWjGk7G36SkwRrjS7ug" style="width:198px;height:126px;"><br>
+                  <span class="white" style="line-height:25px;">Eclipse(달이 태양을 가릴 ) - 문별</span>
+                </a>
+              </div>
+              <div style="float:left; margin:2px;text-align:center;">
+                <a href="https://www.youtube.com/embed/nzDO6tAB6ng" target="mvframe">
+                  <img src="https://i.ytimg.com/vi/nzDO6tAB6ng/hqdefault.jpg?sqp=-oaymwEZCOADEI4CSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD_H-_Zr7ewu2yG3SiIZf6UBBXiAA" style="width:198px;height:126px;"><br>
+                  <span class="white" style="line-height:25px;">하늘바라기 - 정은지(에이핑크)</span>
+                </a>
+              </div>
+              <div style="float:left; margin:2px;text-align:center;">
+                <a href="https://www.youtube.com/embed/rVXeArOQIs4" target="mvframe">
+                  <img src="https://i.ytimg.com/vi/rVXeArOQIs4/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAT1tftdYSpLxlUXhrKmnw3bbpjsw" style="width:198px;height:126px;"><br>
+                  <span class="white" style="line-height:25px;">I Need you(어떻게 지내) - 오반</span>
+                </a>
+              </div>
+              <div style="float:left; margin:2px;text-align:center;">
+                <a href="https://www.youtube.com/embed/jD_qe-ew-O0" target="mvframe">
+                  <img src="https://i.ytimg.com/vi/jD_qe-ew-O0/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD1E1OoFNg_U7HfGTa36SaQIx9-3w" style="width:198px;height:126px;"><br>
+                  <span class="white" style="line-height:25px;">AYA - 마마무(MAMAMOO)</span>
+                </a>
+              </div>
+              <div style="float:left; margin:2px;text-align:center;">
+                <a href="https://www.youtube.com/embed/0WN51PX4XVc" target="mvframe">
+                  <img src="https://i.ytimg.com/vi/0WN51PX4XVc/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAuIZbw7EmL5pVTst0lbxBBPOaaag" style="width:198px;height:126px;"><br>
+                  <span class="white" style="line-height:25px;">Good Times - Paloalto(Babylon)</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+
+          <div>
+            <iframe width="100%" height="608px;" src="https://www.youtube.com/embed/tsN-MkpiZB0" frameborder="0" allowfullscreen name="mvframe"></iframe>
+          </div>
+
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+
+          <div style="position:relative; float:left; margin-top:30px; width:100%; text-align:center;">
+            <a href="https://lms0806.github.io/webs" class="top3words" style="margin-left:20px;margin-right:20px;">제작자 소개</a>
+            <a href="unavailable.html" class="top3words" style="margin-left:20px;margin-right:20px;">제휴 문의</a>
+            <a href="unavailable.html" class="top3words" style="margin-left:20px;margin-right:20px;">이용 약관</a>
+            <a href="unavailable.html" class="top3words" style="margin-left:20px;margin-right:20px;">개인정보 처리 방침</a>
+            <a href="unavailable.html" class="top3words" style="margin-left:20px;margin-right:20px;">청소년 보호 정책</a>
+            <a href="unavailable.html" class="top3words" style="margin-left:20px;margin-right:20px;">사이트 맵</a>
+          </div>
+
+          <div style="position:relative; float:left; margin-top:10px; width:100%; text-align:center;">
+            <span>(주)LMS | 충청북도 청주 | 대표이사 : 임민수 | 고객센터 : ekfdmlzkf@naver.com / 010-9877-2952 | 사업자등록번호 : 123-45-67890 | © LMS Corp. All rights reserved.</span>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+<!-- -->
+<script type = "text/javascript">
+    function searchbutton(){
+        location.href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query="+document.getElementById("search").value;
+    }
+</script>
+</BODY>
+</HTML>
